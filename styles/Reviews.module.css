@@ -1,0 +1,25 @@
+.reviewContainer {
+  background: #511f50;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px;
+  position: relative;
+}
+.title {
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 2.5px;
+  margin-bottom: 5px;
+  color: #853d72;
+}
+.content {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+.author {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  color: #853d72;
+  font-family: 'Work Sans', sans-serif;
+}

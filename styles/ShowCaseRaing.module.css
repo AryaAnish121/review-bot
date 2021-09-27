@@ -1,0 +1,16 @@
+.rating {
+  background: #f7f2f8;
+  padding: 15px;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.title {
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 2.5px;
+  margin-bottom: 5px;
+  color: #51234e;
+}
+.content {
+  font-family: 'Lato', sans-serif;
+}

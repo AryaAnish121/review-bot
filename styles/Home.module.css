@@ -1,0 +1,118 @@
+.container {
+  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  background: #36393f;
+}
+.search {
+  position: relative;
+}
+.searchBackground {
+  width: 100%;
+}
+.searchContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.searchHeading {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.searchInput {
+  height: 50px;
+  width: 35rem;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%);
+  background: #fff;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.focused {
+  box-shadow: 0 0 0 1px #5b43f0, 0 0 0 2px #bdb3f9, 0 0 0 3px #bdb3f9;
+}
+.searchInput input {
+  padding: 10px 15px;
+  height: 100%;
+  width: 90%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.searchInput input {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.25px;
+}
+.searchInput input::placeholder {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.25px;
+}
+.searchInput button {
+  height: 100%;
+  width: 10%;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reviews {
+  background: #fefefe;
+  padding: 25px;
+}
+@media screen and (max-width: 1273px) {
+  .searchBackground {
+    display: none;
+  }
+  .reviews {
+    height: 388px;
+  }
+  .media {
+    background: #5865f2;
+    height: calc(100vh - 388px);
+  }
+  .searchHeading {
+    font-size: 37.5px;
+  }
+  .searchInput {
+    width: 27.5rem;
+  }
+}
+@media screen and (max-width: 666px) {
+  .reviews {
+    height: 417.5px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .reviews {
+    height: 427.5px;
+  }
+  .searchInput {
+    width: 22.5rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .reviews {
+    height: 417.5px;
+  }
+  .searchHeading {
+    font-size: 32.5px;
+  }
+  .searchInput {
+    width: 20rem;
+  }
+  .reviews {
+    height: 465px;
+  }
+  .media {
+    height: calc(100vh - 465px);
+  }
+}

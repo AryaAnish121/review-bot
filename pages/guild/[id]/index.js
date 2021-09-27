@@ -11,7 +11,9 @@ const Guild = ({ serverName, reviews }) => {
       </Head>
       {serverName ? (
         <div className={styles.server}>
-          <h1 className={styles.serverName}>Reviews for "{serverName}"</h1>
+          <h1 className={styles.serverName}>
+            Reviews for &quot;{serverName}&quot;
+          </h1>
           <div className={styles.reviews}>
             {reviews.map((review, index) => {
               return <Review key={index} {...review} />;
